@@ -1,0 +1,125 @@
+{
+    'timestamp': 1515802563751,
+    'stats': {
+        'nada': {
+            'completed': True,
+            'testing': 0,
+            'endpoints': ['https://nada.swarmio.gg:2222'],
+            'stats': {
+                'latency': '109.17',
+                'avr': '80.59',
+                'jitter': '28.37',
+                'min': '62.41',
+                'max': '179.94',
+                'count': 11
+            },
+            'token': 'eyJhbGciOiJIUzI1NiJ9.b3ptYXJr.7QBjvZEEqPetYV1PTj7E62RtKYodnMsFvcTy_nEtqiM',
+            'address': '72.220.84.216'
+        },
+        'hk': {
+            'completed': True,
+            'testing': 0,
+            'endpoints': ['https://hk.swarmio.gg:2222'],
+            'stats': {
+                'latency': '340.90',
+                'avr': '288.78',
+                'jitter': '199.04',
+                'min': '176.30',
+                'max': '918.79',
+                'count': 11
+            },
+            'token': 'eyJhbGciOiJIUzI1NiJ9.b3ptYXJr.7QBjvZEEqPetYV1PTj7E62RtKYodnMsFvcTy_nEtqiM',
+            'address': '72.220.84.216'
+        },
+        'sg': {
+            'completed': True,
+            'testing': 0,
+            'endpoints': ['https://sg.swarmio.gg:2222'],
+            'stats': {
+                'latency': '341.39',
+                'avr': '266.00',
+                'jitter': '148.94',
+                'min': '181.79',
+                'max': '810.82',
+                'count': 11
+            },
+            'token': 'eyJhbGciOiJIUzI1NiJ9.b3ptYXJr.7QBjvZEEqPetYV1PTj7E62RtKYodnMsFvcTy_nEtqiM',
+            'address': '72.220.84.216'
+        },
+        'nasc': {
+            'completed': True,
+            'testing': 0,
+            'endpoints': ['https://nasc.swarmio.gg:2222'],
+            'stats': {
+                'latency': '34.77',
+                'avr': '75.82',
+                'jitter': '75.33',
+                'min': '30.34',
+                'max': '357.11',
+                'count': 11
+            },
+            'token': 'eyJhbGciOiJIUzI1NiJ9.b3ptYXJr.7QBjvZEEqPetYV1PTj7E62RtKYodnMsFvcTy_nEtqiM',
+            'address': '72.220.84.216'
+        },
+        'uk': {
+            'completed': True,
+            'testing': 0,
+            'endpoints': ['https://uk.swarmio.gg:2222'],
+            'stats': {
+                'latency': '285.33',
+                'avr': '275.53',
+                'jitter': '131.19',
+                'min': '202.30',
+                'max': '759.82',
+                'count': 11
+            },
+            'token': 'eyJhbGciOiJIUzI1NiJ9.b3ptYXJr.7QBjvZEEqPetYV1PTj7E62RtKYodnMsFvcTy_nEtqiM',
+            'address': '72.220.84.216'
+        },
+        'nl': {
+            'completed': True,
+            'testing': 0,
+            'endpoints': ['https://nl.swarmio.gg:2222'],
+            'stats': {
+                'latency': '340.89',
+                'avr': '294.67',
+                'jitter': '200.36',
+                'min': '181.14',
+                'max': '986.90',
+                'count': 11
+            },
+            'token': 'eyJhbGciOiJIUzI1NiJ9.b3ptYXJr.7QBjvZEEqPetYV1PTj7E62RtKYodnMsFvcTy_nEtqiM',
+            'address': '72.220.84.216'
+        },
+        'nach': {
+            'completed': True,
+            'testing': 0,
+            'endpoints': ['https://nach.swarmio.gg:2222'],
+            'stats': {
+                'latency': '878.01',
+                'avr': '166.07',
+                'jitter': '93.02',
+                'min': '75.52',
+                'max': '878.01',
+                'count': 11
+            },
+            'token': 'eyJhbGciOiJIUzI1NiJ9.b3ptYXJr.7QBjvZEEqPetYV1PTj7E62RtKYodnMsFvcTy_nEtqiM',
+            'address': '72.220.84.216'
+        },
+        'nato': {
+            'completed': True,
+            'testing': 0,
+            'endpoints': ['https://nato.swarmio.gg:2222'],
+            'stats': {
+                'latency': '142.07',
+                'avr': '239.04',
+                'jitter': '244.81',
+                'min': '84.39',
+                'max': '1112.06',
+                'count': 11
+            },
+            'token': 'eyJhbGciOiJIUzI1NiJ9.b3ptYXJr.7QBjvZEEqPetYV1PTj7E62RtKYodnMsFvcTy_nEtqiM',
+            'address': '72.220.84.216'
+        }
+    }
+}
