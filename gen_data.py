@@ -50,7 +50,9 @@ my_variance = 1000
 # pylab.savefig('realRandomVariates.png')
 # pylab.show()
 
-# os.environ['NO_PROXY'] = 'localhost'
+os.environ['NO_PROXY'] = 'localhost'
+import requests
+url = "http://localhost:9200/metering_index/pingdata"
 # client = InfluxDBClient('localhost', 8086, 'admin', 'admin', 'metering')
 # try:
 #     client.create_database('metering')
@@ -65,24 +67,19 @@ while True:
             json_body = []
             for endpoint in endpoints:
                 i = random.randint(0, 5000)
-                json_body.append( 
-                    {
+                json_body =  {
                         "measurement": "user_latency",
-                        "tags": {
-                            "endpoint": endpoint,
-                            "dc": endpoint + '_dc',
-                            "region": "us-west",
-                            "user": user,
-                            "address": user
-                        },
+                        "endpoint": endpoint,
+                        "dc": endpoint + '_dc',
+                        "region": "us-west",
+                        "user": user,
+                        "address": user,
                         "time": (currentTime + timedelta(seconds= random.randint(0,300))).strftime('%Y-%m-%dT%H:%M:%SZ'),
-                        "fields": {
-                            "latency": abs(round(random_numbers[i] + random.uniform(500, 1000) if user in badUsers else random_numbers[i], 2)),
-                            }
-                        }
-                )
+                        "latency": abs(round(random_numbers[i] + random.uniform(500, 1000) if user in badUsers else random_numbers[i], 2))
+                    }
+                requests.post(url, json=json_body)
             # client.write_points(json_body)
-                print(user + ":" + endpoint + ":" + str(json_body[0]['fields']['latency']))
+                # print(user + ":" + endpoint + ":" + str(json_body[0]['fields']['latency']))
         except:
             print("Unexpected error:", sys.exc_info()[0])
             pass
